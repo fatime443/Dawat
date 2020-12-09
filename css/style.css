@@ -1,0 +1,507 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background: url(http://quomodosoft.com/html/dawat/demo/img/slider/slide_2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+header .top-menu {
+  border-bottom: 1px solid #fff;
+}
+
+header .top-menu nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .top-menu nav .left-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .top-menu nav .left-nav p {
+  color: #fff;
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+  margin: 7px 15px 0 0;
+}
+
+header .top-menu nav .left-nav p a {
+  color: #fff;
+  font-size: 15px;
+}
+
+header .top-menu nav .right-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+header .top-menu nav .right-nav a {
+  color: #fff;
+}
+
+header .top-menu nav .right-nav a i {
+  padding: 0 10px;
+}
+
+header .top-menu nav .right-nav .icon-a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px;
+  background-color: none;
+  color: #fff;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+header .top-menu nav .right-nav .icon-a:hover {
+  background-color: #fff;
+  color: #ff8800;
+}
+
+header .top-menu nav .right-nav .em {
+  padding: 15px 20px;
+  background-color: #b42a11;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+header .top-menu nav .right-nav .em:hover {
+  background-color: #fff;
+  color: #b42a11;
+}
+
+.bottom-menu .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 0;
+}
+
+.bottom-menu .logo img {
+  padding: 15px 0;
+  cursor: pointer;
+}
+
+.bottom-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.bottom-menu ul li a {
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 40px 20px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.bottom-menu ul li a:hover {
+  color: #be0b0b;
+}
+
+.bottom-menu ul .active a {
+  border-top: 2px solid #be0b0b;
+  padding: 55px;
+}
+
+.bottom-menu ul .active a {
+  color: #be0b0b;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h2 {
+  font-size: 80px;
+  color: #fff;
+  font-weight: lighter;
+  font-family: 'Kurale', serif;
+}
+
+.center h1 {
+  color: #fff;
+  font-size: 80px;
+  font-weight: lighter;
+  font-family: 'Kurale', serif;
+  margin-bottom: 20px;
+}
+
+.center a {
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 25px;
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  letter-spacing: 0.5px;
+}
+
+.center a:hover {
+  background-color: #c02c2c;
+  border: #c02c2c;
+  color: #fff;
+}
+
+.circle {
+  text-align: center;
+  margin-top: 150px;
+  font-size: 10px;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.circle i {
+  padding: 0 5px;
+}
+
+.text-section {
+  background-image: url(http://quomodosoft.com/html/dawat/demo/img/about/home_three_about_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  padding: 120px 0;
+}
+
+.text-section .text {
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.text-section .text h2 {
+  color: #c4260b;
+  font-size: 80px;
+  text-transform: capitalize;
+  font-family: 'Dancing Script', cursive;
+}
+
+.text-section .text-1 {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: .3px;
+  line-height: 1.7em;
+  text-align: justify;
+  color: #685656;
+}
+
+.text-section .text-1 span {
+  float: left;
+  font-size: 80px;
+  color: #444;
+  font-size: 80px;
+  font-weight: 700;
+  margin-bottom: -4px;
+  margin-right: 10px;
+  line-height: 1;
+  font-family: 'Kurale', serif;
+}
+
+.text-section .log {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.item-section {
+  position: relative;
+  background: url(http://quomodosoft.com/html/dawat/demo/img/promotions/promotions_area_bg_1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.item-section h2 {
+  text-align: center;
+  color: #c4260b;
+  font-size: 80px;
+  padding: 30px 0;
+  text-transform: capitalize;
+  font-family: 'Dancing Script', cursive;
+}
+
+.item-section h2::after {
+  background: rgba(0, 0, 0, 0) url(http://quomodosoft.com/html/dawat/demo/img/icons/red.png) no-repeat scroll center center/contain;
+  top: 120px;
+  content: "";
+  height: 30px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.item-section .cola img {
+  position: absolute;
+  width: 50%;
+  left: 5%;
+}
+
+.item-section .table {
+  position: absolute;
+  right: 20%;
+  top: 32%;
+  padding: 100px 20px;
+  background-color: white;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.item-section .table h3 {
+  color: #1a1a1a;
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
+  margin: 0 0 15px;
+}
+
+.item-section .table p {
+  color: #1a1a1a;
+  font-size: 15px;
+  font-family: 'Dancing Script', cursive;
+  margin: 0 0 30px;
+}
+
+.item-section .table a {
+  color: #ca3d26;
+  font-size: 14px;
+  margin: 25px 0;
+  padding: 7px 23px;
+  font-weight: bold;
+  border: 1px solid  #ca3d26;
+  background-color: #fff;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+.item-section .table a:hover {
+  background-color: #ca3d26;
+  color: #fff;
+}
+
+.today-item {
+  padding: 120px 0;
+}
+
+.today-item .today {
+  position: relative;
+}
+
+.today-item .today h2 {
+  text-align: center;
+  color: #c4260b;
+  font-size: 80px;
+  padding: 30px 0;
+  text-transform: capitalize;
+  font-family: 'Dancing Script', cursive;
+}
+
+.today-item .today h2::after {
+  background: rgba(0, 0, 0, 0) url(http://quomodosoft.com/html/dawat/demo/img/icons/red.png) no-repeat scroll center center/contain;
+  top: 120px;
+  content: "";
+  height: 30px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.today-item .today-menu {
+  padding: 30px 0;
+}
+
+.today-item .today-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.today-item .today-menu ul li {
+  padding: 0 10px;
+}
+
+.today-item .today-menu ul li a {
+  font-family: 'Kurale', serif;
+  font-size: 15px;
+  padding: 5px 10px;
+  border: 1px solid #1e1e1e;
+  color: #1e1e1e;
+  text-transform: uppercase;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+.today-item .today-menu ul li a:hover {
+  background-color: #ca3d26;
+  border: 1px solid #ca3d26;
+  color: #fff;
+}
+
+.today-item .today-menu ul .active a {
+  border: 1px solid #ca3d26;
+  color: #fff;
+  background-color: #ca3d26;
+}
+
+.foods {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.foods .eat-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.foods .eat-menu .food-img {
+  padding: 0 0 30px;
+}
+
+.foods .eat-menu .food-img img {
+  border-radius: 50%;
+  border: 10px solid #e0cece;
+}
+
+.foods .eat-menu .food-menu {
+  padding: 0 20px;
+}
+
+.foods .eat-menu .food-menu .juice {
+  float: left;
+  padding: 0 20px;
+}
+
+.foods .eat-menu .food-menu .juice span {
+  padding: 0 15px;
+}
+
+.foods .eat-menu .food-menu .cup span {
+  float: right;
+  padding-top: 15px;
+  color: #222;
+  font-weight: bold;
+}
+
+.egg-section {
+  background: url(http://quomodosoft.com/html/dawat/demo/img/promotions/promo_slide_2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.egg-section .egg {
+  padding: 120px 0;
+  text-align: center;
+}
+
+.egg-section .egg h2 {
+  color: #fff;
+  font-size: 50px;
+  padding: 0 0 50px;
+  text-transform: uppercase;
+}
+
+.egg-section .egg a {
+  padding: 10px 35px;
+  color: #ca3d26;
+  font-size: 18px;
+  background-color: #fff;
+  text-transform: uppercase;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  letter-spacing: 1.5px;
+}
+
+.egg-section .egg a:hover {
+  background-color: #ca3d26;
+  color: #fff;
+}
+
+.team-section {
+  position: relative;
+}
+
+.team-section .chef {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  -webkit-transform: translate(-50%, 30%);
+          transform: translate(-50%, 30%);
+}
+
+.team-section .chef h2 {
+  color: #c4260b;
+  font-size: 80px;
+  padding: 30px 0;
+  text-transform: capitalize;
+  font-family: 'Dancing Script', cursive;
+}
+
+.team-section .chef h2::after {
+  background: rgba(0, 0, 0, 0) url(http://quomodosoft.com/html/dawat/demo/img/icons/red.png) no-repeat scroll center center/contain;
+  top: 120px;
+  content: "";
+  height: 30px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
